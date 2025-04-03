@@ -15,8 +15,12 @@ fun findDuplicate(arr: Array<Int>): Int {
 }
 
 fun main() {
-    val n = arrayOf(1, 5, 3, 9, 2, 5, 7)
+    val n = arrayOf(1, 3, 4, 2, 2)
+    val n1 = arrayOf(5, 1, 3, 4, 2, 3)
     // what I know: 5 must be the output
     val res = findDuplicate(n)
     println(res)
+
+    val res1 = findDuplicate(n1)
+    println(res1)
 }
